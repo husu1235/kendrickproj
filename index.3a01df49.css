@@ -1,0 +1,54 @@
+body {
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#heroText {
+  color: #fff;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  font-family: intro;
+  font-size: 100px;
+  position: absolute;
+}
+
+.secStart {
+  justify-content: center;
+  justify-self: center;
+  display: flex;
+}
+
+canvas {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+@font-face {
+  font-family: intro;
+  src: url("Candu.61ba3796.ttf");
+}
+
+.album1 {
+  filter: blur(80px);
+  opacity: 0;
+  background-repeat: no-repeat;
+  width: 1500px;
+  height: 1000px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 800px;
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
